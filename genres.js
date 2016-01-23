@@ -103,7 +103,6 @@ module.exports = [
     / Noisegrind/i,
     / Hardcore punk/i,
     / Post-hardcore/i,
-    / Emo/i,
     / Screamo/i,
     / Thrashcore/i,
     / Crossover thrash/i,
