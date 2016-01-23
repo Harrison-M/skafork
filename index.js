@@ -30,7 +30,7 @@ qauth.init().then(function (twitterConfig) {
             return genre ? headline.replace(genre, ' Ska') : false;
         })
         .filter(h => h)
-        .map(headline => headline.replace(/ska.*er/g, 'Rude Boy'))
+        .map(headline => headline.replace(/ska.*?er/g, 'Rude Boy'))
         .flatMap(headline => Rx.Observable.fromNodeCallback(
             cb => db.get(
                 headline,
